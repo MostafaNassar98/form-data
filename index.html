@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>Personal Data</title>
+</head>
+<body>
+    <form action="">
+        <fieldset style="background-color: brown; height: 100%;">
+            <legend style="background-color: tomato;">
+                Personal Data
+            </legend>
+            <fieldset style="background-color: yellowgreen;">
+                <legend style="background-color:rgb(61, 61, 188);"><br> Your Name <br><br></legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>First Name</td>
+                            <td>:</td>
+                            <td><input type="text" required placeholder="ex." name="firstname"></td>
+                        </tr>
+                        <tr>
+                            <td>Second Name</td>
+                            <td>:</td>
+                            <td><input type="text" required placeholder="ex." name="secondname"></td>
+                        </tr>
+                        <br>
+                    </tbody>
+                </table>           
+            </fieldset>
+            <br><br><br><br><br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Your Phone</td>
+                        <td>:</td>
+                        <td><input type="tel"  name="Phone"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input type="email"  name="mail"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td><input type="password"  name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>re-Password</td>
+                        <td>:</td>
+                        <td><input type="password"  name="re-Password"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input type="radio" id="male" name="gender" value="male" ></td>
+                        <td><label for="male">Male</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="female" name="gender" value="female" ></td>
+                        <td><label for="female">Female</label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <table>
+                <tbody>
+                    <tr>
+                        <tr>
+                            <td><input type="checkbox" id="student" name="status" value="student"></td>
+                            <td><label for="student">Student</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="graduated" name="status" value="graduated" ></td>
+                            <td><label for="graduated">Female</label></td>
+                        </tr>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <select name="cars">
+                <option disabled selected >selact...</option>
+                <optgroup label="car1">
+                    <option>BMW</option>
+                    <option>BMW</option>
+                    <option>BMW</option>
+                </optgroup>
+                <optgroup label="car2">
+                    <option>BMW</option>
+                    <option>BMW</option>
+                    <option>BMW</option>
+                </optgroup>
+                <optgroup label="car3">
+                    <option>BMW</option>
+                    <option>BMW</option>
+                    <option>BMW</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <button style="background-color:black; color: white;" type="submit">submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
